@@ -1,5 +1,4 @@
-# Expense Tracker REST API
-
+# Expense Tracker
 A lightweight, secure RESTful API built with **FastAPI**, **SQLAlchemy**, and **Pydantic v2**. This application provides user authentication using JWT and argon2/bcrypt password hashing, alongside full CRUD operations for managing personal expenses.
 
 ---
