@@ -65,5 +65,3 @@ Start the Uvicorn development server:
 
 uvicorn app.main:app --reload
 Interactive API Docs (Swagger UI): http://127.0.0.1:8000/docs
-
-MethodEndpointDescriptionAuth RequiredPOST/auth/registerRegister a new user accountNoPOST/auth/loginAuthenticate and retrieve JWT access tokenNoGET/expensesRetrieve all expenses for current userYesPOST/expensesCreate a new expense entryYesGET/expenses/{id}Retrieve details of a specific expenseYesPUT/expenses/{id}Update an existing expense recordYesDELETE/expenses/{id}Remove an expense recordYes
