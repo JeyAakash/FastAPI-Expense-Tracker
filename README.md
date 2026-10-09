@@ -43,29 +43,3 @@ fastapi-expense-tracker/
 ├── .gitignore           # Git ignore rules (.venv, app.db, .env)
 ├── README.md            # Project documentation
 └── requirements.txt     # Python dependencies
-
-Installation & Setup
-1. Clone the Repository
-
-git clone https://github.com/JeyAakash/FastAPI-Expense-Tracker.git 
-cd fastapi-expense-tracker
-
-2. Set Up Virtual Environment
-
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-3. Install Dependencies
-
-pip install -r requirements.txt
-
-4. Configure Environment Variables
-
-Copy the .env.example file to create your local .env configuration:
-Copy-Item .env.example .env
-
-Running the Application
-Start the Uvicorn development server:
-
-uvicorn app.main:app --reload
-Interactive API Docs (Swagger UI): http://127.0.0.1:8000/docs
